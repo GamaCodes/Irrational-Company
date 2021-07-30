@@ -15,18 +15,19 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #0a0a0a;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #EE2E65;
+  font-family: 'Lobster', cursive;
 }
 
 .App-link {
-  color: #61dafb;
+  color: #4AB8E3;
   font-size: 1rem;
   letter-spacing: .8rem;
   font-weight: bold;
@@ -45,4 +46,8 @@
   .App-link {
     font-size: 2rem;
   }
+}
+
+.img-irra{
+  width: 30vw;
 }
