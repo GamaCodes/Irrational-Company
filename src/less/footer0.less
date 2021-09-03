@@ -1,0 +1,34 @@
+.footer0-wrapper {
+  background-color: #000;
+  overflow: hidden;
+  padding: 1rem;
+  .footer0 {
+    height: 100%;
+    padding: 0 24px;
+    text-align: center;
+    color: @template-footer-text-color;
+    position: relative;
+  }
+}
+
+.footer-im-log {
+  svg {
+    width: 20vw;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer0-wrapper {
+    .footer0 {
+      font-size: 12px;
+      &.home-page {
+        padding: 0;
+      }
+      >div {
+        width: 90%;
+        margin: auto;
+      }
+    }
+  }
+}

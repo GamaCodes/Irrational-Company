@@ -1,16 +1,10 @@
-import "./App.css";
+import React from "react";
+import Home from "./page";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src="irra_white.svg" className="img-irra" alt="logo" />
-        <p className="App-link">Proximamente</p>
-        <img src="irra_img.svg" alt="logo" />
-        <p>2021</p>
-      </header>
-    </div>
-  );
-}
+const App = () => (
+  <>
+    <Home />
+  </>
+);
 
 export default App;
